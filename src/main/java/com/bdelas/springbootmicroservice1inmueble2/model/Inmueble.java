@@ -16,18 +16,18 @@ public class Inmueble {
     private  Long id;
 
     @Column(name="nombre", length = 150, nullable = false)
-    private String names;
+    private String nombre;
 
     @Column(name="direccion", length = 500, nullable = false)
-    private String direction;
+    private String direccion;
 
     @Column(name="foto", length = 1200, nullable = true)
     private String picture;
 
     @Column(name="precio",  nullable = false)
-    private String price;
+    private String precio;
 
     @Column(name="fecha_creacion",  nullable = false)
-    private LocalDateTime creationDate;
+    private LocalDateTime fechaCreacion;
 
 }
